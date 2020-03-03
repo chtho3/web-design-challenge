@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-    <title>Lattitude Data Visualizations</title>
+    <title>Lattitude Data Visualizations: Data</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -92,28 +92,29 @@
 
 <body>
 <!--Navigation Bar-->
-        <nav class="navbar">
-            <nav class="navbar sticky-top navbar-light bg-white">
-                <a class="navbar-brand" href="index.html"><div class="p-3 mb-2 bg-info text-white"><h1><b>Lattitude</b></h1></div></a>
-              </nav>
-              <ul>
-                <li><a class="nav-link" href="data.html">Data</a></li>
-                <li><a class="nav-link" href="comparison.html">Comparison</a></li>
-                <li class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Plots
-                    </a>
-                  
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="latvtemp.html">Max Temperature</a>
-                      <a class="dropdown-item" href="latvhumi.html">Humidity</a>
-                      <a class="dropdown-item" href="latvcloud.html">Cloudiness</a>
-                      <a class="dropdown-item" href="latvwind.html">Wind Speed</a>
-                    </li>
-                  </div>
-            </li>
-            </ul>
-        </nav>
+<div class="navbar">
+            
+  <nav class="navbar sticky-top navbar-light bg-white">
+      <a class="navbar-brand" href="index.html"><div class="p-3 mb-2 bg-info text-white"><h1><b>Lattitude</b></h1></div></a>
+    </nav>
+    <ul>
+      <li><a class="nav-link" href="data.html">Data</a></li>
+      <li><a class="nav-link" href="comparison.html">Comparison</a></li>
+      <li class="dropdown">
+          <a class="nav-link dropdown-toggle" href="#" type="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots <b class="caret"></b>
+          </a>
+        
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="latvtemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="latvhumi.html">Humidity</a>
+            <a class="dropdown-item" href="latvcloud.html">Cloudiness</a>
+            <a class="dropdown-item" href="latvwind.html">Wind Speed</a>
+          </li>
+        </div>
+  </li>
+  </ul>
+</nav>
 <!--Content section-->
     <div class="container">
         <div class="row">
